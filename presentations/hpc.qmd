@@ -65,11 +65,75 @@ uu.nl/rdm
 ##
 ![](images/compute-services.png)
 
+##
+![](images/surf-where-to-go.png)
+
+
 ## Snellius
 
+::: {style="text-align: left; margin-top: 2em"}
 
+- Dutch National supercomputer
+- Cluster for large scale parallel computing
+- Batch job system
+- GPU nodes
+- fast interconnect
 
+:::
 
+## Specifications
+
+::: {style="text-align: left; margin-top: 2em"}
+
+**CPU nodes (>1200):**
+
+- 128 CPU cores 256GiB RAM
+- Smallest allocation 32 CPU cores
+- Scratch storage ~ 6 TB
+
+Full Snellius hardware overview: [edu.nl/x6jgc](https://edu.nl/x6jgc)
+
+:::
+
+## Specifications
+
+::: {style="text-align: left; margin-top: 2em"}
+
+**Hi-mem CPU nodes (>100)**
+
+- 128 CPU cores 1 TiB RAM (2x4 TiB, 2x8TiB)
+- Scratch storage ~ 6 TB
+
+Full Snellius hardware overview: [edu.nl/x6jgc](https://edu.nl/x6jgc)
+
+:::
+
+## Specifications
+
+::: {style="text-align: left; margin-top: 2em"}
+
+**GPU nodes (72)**
+
+- 4 x Nvidia A100 GPU
+- Smallest allocation 1 GPUs
+- 88 x 4 NVIDIA H100 GPUs (expected soon)
+- Scratch storage ~ 6 TB
+
+Full Snellius hardware overview: [edu.nl/x6jgc](https://edu.nl/x6jgc)
+
+:::
+
+## LUMI
+
+::: {style="text-align: left; margin-top: 2em"}
+
+- European supercomputer
+- 379.70 PFlop/s
+- 5th fastest in the world
+- 7th greenest in the world
+- Access via SURF (from april)
+
+:::
 
 # {data-background-color="#FFCD00"}
 
@@ -117,11 +181,6 @@ Costs depend on the amount of compute you select and the cloud on which you work
 Our starting budgets are often enough!
 :::
 
-
-## ResearchCloud
-
-![](images/clouds.png)
-
 ## ResearchCloud
 
 ![](images/clouds.png)
@@ -148,15 +207,24 @@ Some example usecases:
 
 :::
 
-##
-
-![](images/surf-where-to-go.png)
-
-## 
+## Funding
 
 ![](images/funding-for-compute.png)
 
-## UU SURF credits program
+## Getting started at UU
+
+::: {style="text-align: left; margin-top: 2em"}
+Contact us via RDM support [edu.nl/v7y7e](https://edu.nl/v7y7e)
+
+- HPC consultancy meeting
+- (some) User support
+- Help with compute application
+- Free credits for Snellius or ResearchCloud
+- Engineering projects
+::: 
+
+
+## UU credits
 
 ::: {style="text-align: left; margin-top: 2em"}
 - 10.000 credits for Snellius or Research Cloud
@@ -164,7 +232,7 @@ Some example usecases:
 - running tests/benchmarks
 - often enough for finishing a project!
 - low threshold intake procedure
-- Use it to prepare compute application
+- Use it to prepare a Small compute application
 :::
 
 ## Links
