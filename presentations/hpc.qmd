@@ -65,9 +65,14 @@ uu.nl/rdm
 ##
 ![](images/compute-services.png)
 
-##
-![](images/surf-where-to-go.png)
+## Summary
 
+- For ease of use and plug and play compute: ResearchCloud
+- For very powerful parallel computing: Snellius
+- For structurally processing very large amounts of data: Spider
+- For easy storage and data sharing: Research Drive
+- For cheap longterm storage: Data Archive
+- For cloud solutions on commercial clouds: SURFcumulus
 
 ## Snellius
 
@@ -77,7 +82,7 @@ uu.nl/rdm
 - Cluster for large scale parallel computing
 - Batch job system
 - GPU nodes
-- fast interconnect
+- Fast interconnect
 
 :::
 
@@ -131,7 +136,7 @@ Full Snellius hardware overview: [edu.nl/x6jgc](https://edu.nl/x6jgc)
 - 379.70 PFlop/s
 - 5th fastest in the world
 - 7th greenest in the world
-- Access via SURF (from april)
+- Access via SURF (from April)
 
 :::
 
@@ -156,7 +161,7 @@ Run virtual machines preconfigured for various research needs:
 
 - Programming and analysis (e.g. R-Studio, Jupyter, Matlab).
 - Analysis tools (e.g. ASReview, 4CAT).
-- Field-specific software (e.g. Geoscripting).
+- Field-specific software (e.g. GIS).
 - Webservices (e.g. Airflow).
 - ...or simply your own desktop or commandline machine in the cloud.
 :::
@@ -201,9 +206,11 @@ For who is it? Those who...
 
 Some example usecases:
 
-- Training models.
+- Training models
+  - ...e.g. in combination with GIS
 - Transcribing audio/speech recognition (WhisperX).
-- Complex workflows with multiple users.
+- Complex data workflows with multiple users.
+  - including with sensitive data
 
 :::
 
