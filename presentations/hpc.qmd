@@ -3,18 +3,75 @@ format:
   revealjs:
     theme: themes/uu.scss
     logo: images/UU_logo_2021_EN_RGB.png
-    footer: "Jelle Treep & Dawa Ometto"
+    footer: "Jelle Treep & Dawa Ometto - edu.nl/4ej9q"
+    
 ---
 
 # HPC and Cloud Facilities at SURF {data-background-color="#FFCD00"}
 
 Access and consultancy @ UU ITS
 
-![](images/UU_logo_2021_EN_RGB.png){.absolute bottom=320 left=-240 width="300" height="120"}
+## UU Research Engineering Team
+
+::: {style="text-align: left; margin-top: 2em"}
+**Goal: Increase research impact with advanced digital technologies**
+
+<br>
+
+Core activities include:
+
+- Projects
+- Trainings
+- Consultancy (e.g. HPC)
+:::
+
+##
+
+<br>
+```{mermaid}
+flowchart LR
+  B((RDM Support))
+  E --- B --- A
+  subgraph UB["UU Library"]
+    A(Academic Services)
+  end
+  subgraph ITS[ITS]
+    C(RDMS)
+    C --> D(Yoda team)
+    C --> E(Research Engineering)
+  end
+
+style UB fill:#FFCD00
+style ITS fill:#FFCD00
+style A fill:#fff9dd
+style C fill:#fff9dd
+style D fill:#fff9dd
+style E fill:#fff9dd
+```
+
+::: {style="text-align: center; margin-top: 180px; font-size: 3em; color: red;"}
+
+uu.nl/rdm
+
+:::
+
+
+## SURF
+![](images/what-is-surf.png)
+
+##
+![](images/surf-portfolio.png)
+
+##
+![](images/compute-services.png)
+
+## Snellius
+
+
+
+
 
 # {data-background-color="#FFCD00"}
-
-![](images/UU_logo_2021_EN_RGB.png){.absolute bottom=-100 left=-240 width="300" height="120"}
 
 :::::::::::::: {.columns}
 
@@ -90,6 +147,36 @@ Some example usecases:
 - Complex workflows with multiple users.
 
 :::
+
+##
+
+![](images/surf-where-to-go.png)
+
+## 
+
+![](images/funding-for-compute.png)
+
+## UU SURF credits program
+
+::: {style="text-align: left; margin-top: 2em"}
+- 10.000 credits for Snellius or Research Cloud
+- ~10.000 CPU core hours or 50-100 GPU hours
+- running tests/benchmarks
+- often enough for finishing a project!
+- low threshold intake procedure
+- Use it to prepare compute application
+:::
+
+## Links
+
+::: {style="text-align: left; margin-top: 2em"}
+- This presentation [edu.nl/4ej9q](https://edu.nl/4ej9q)
+- Getting started via RDM support [edu.nl/v7y7e](https://edu.nl/v7y7e)
+- Overview compute applications [edu.nl/bb6vb](https://edu.nl/bb6vb)
+- Snellius [edu.nl/dktug](https://edu.nl/dktug)
+- Research cloud [edu.nl/abk37](https://edu.nl/abk37)
+:::
+
 
 # {data-background-color="#FFCD00"}
 
