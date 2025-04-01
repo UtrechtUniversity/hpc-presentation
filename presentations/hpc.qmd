@@ -72,7 +72,7 @@ uu.nl/rdm
 - For structurally processing very large amounts of data: Spider
 - For easy storage and data sharing: Research Drive
 - For cheap longterm storage: Data Archive
-- For cloud solutions on commercial clouds: SURFcumulus
+- For cloud solutions on commercial clouds: ResearchCloud & SURFcumulus
 
 ## Snellius
 
@@ -82,7 +82,7 @@ uu.nl/rdm
 - Cluster for large scale parallel computing
 - Batch job system
 - GPU nodes
-- Fast interconnect
+- Fast interconnect between nodes
 
 :::
 
@@ -117,11 +117,11 @@ Full Snellius hardware overview: [edu.nl/x6jgc](https://edu.nl/x6jgc)
 
 ::: {style="text-align: left; margin-top: 2em"}
 
-**GPU nodes (72)**
+**GPU nodes**
 
-- 4 x Nvidia A100 GPU
+- 4 x Nvidia A100 GPU (**72 nodes**)
 - Smallest allocation 1 GPUs
-- 88 x 4 NVIDIA H100 GPUs (expected soon)
+- 4 x NVIDIA H100 GPUs (**88 nodes**)
 - Scratch storage ~ 6 TB
 
 Full Snellius hardware overview: [edu.nl/x6jgc](https://edu.nl/x6jgc)
@@ -162,7 +162,7 @@ Run virtual machines preconfigured for various research needs:
 - Programming and analysis (e.g. R-Studio, Jupyter, Matlab).
 - Analysis tools (e.g. ASReview, 4CAT).
 - Field-specific software (e.g. GIS).
-- Webservices (e.g. Airflow).
+- Webservices (e.g. Galaxy).
 - ...or simply your own desktop or commandline machine in the cloud.
 :::
 
@@ -172,7 +172,7 @@ Features:
 
 - Ease of use: launch preconfigured VMs from the portal.
 - Easy collaboration inside and outside of UU (SRAM platform).
-- Run VMs on either SURF HPC cloud, or on commerical cloud platforms.
+- Run VMs on either SURF HPC cloud, or on commercial cloud platforms.
 - Special SANE environments for sensitive data.
 - Customizable environments (we can help!).
 :::
@@ -196,7 +196,7 @@ Our starting budgets are often enough!
 For who is it? Those who...
 
 - need to be able to collaborate or share with others.
-- need more compute, but don't need access to Snellius or another cluster.
+- need more compute (CPU/GPU), but don't need access to Snellius or another cluster.
 - have non-traditional HPC needs (analysis tools and services).
 
 :::
@@ -249,7 +249,8 @@ Contact us via RDM support [edu.nl/v7y7e](https://edu.nl/v7y7e)
 - Getting started via RDM support [edu.nl/v7y7e](https://edu.nl/v7y7e)
 - Overview compute applications [edu.nl/bb6vb](https://edu.nl/bb6vb)
 - Snellius [edu.nl/dktug](https://edu.nl/dktug)
-- Research cloud [edu.nl/abk37](https://edu.nl/abk37)
+- ResearchCloud [edu.nl/abk37](https://edu.nl/abk37)
+- UU ResearchCloud docs [https://github.com/UtrechtUniversity/vre-docs](https://github.com/UtrechtUniversity/vre-docs)
 :::
 
 
